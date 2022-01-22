@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class InnovaMvcApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(InnovaMvcApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(InnovaMvcApplication.class, args);
+	}
 
 }
