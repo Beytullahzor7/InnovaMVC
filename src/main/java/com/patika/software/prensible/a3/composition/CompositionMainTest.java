@@ -12,7 +12,6 @@ public class CompositionMainTest {
 
         System.out.println(yazar);
 
-
         Kitap kitap = new Kitap();
         kitap.setKitapAdi("Mastery");
         kitap.setKitapFiyati("60");

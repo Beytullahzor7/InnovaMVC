@@ -17,7 +17,20 @@
     <properties>
         <java.version>11</java.version>
     </properties>
+
     <dependencies>
+
+        <!-- JSP icin -->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+
         <!--  spring MVC-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

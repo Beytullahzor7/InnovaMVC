@@ -6,8 +6,8 @@ public class Yazar {
     private String yazarAdi;
     private String yazarSoyadi;
 
+    //composition
     private List<Kitap> kitapList;
-
 
     public Yazar(){}
 

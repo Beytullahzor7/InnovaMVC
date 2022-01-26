@@ -3,6 +3,8 @@ package com.patika.tutorials;
 import lombok.Getter;
 import lombok.Setter;
 
+
+//type safe noktasında bizlere avantaj saglar
 public enum EnumRenkler {
     MAVI, YESIL, TURUNCU
 }
@@ -10,10 +12,10 @@ public enum EnumRenkler {
 enum Renkler2 {
     MAVI(1,"mavi"),YESIL(2,"yesil"),TURUNCU(3,"turuncu");
 
-    @Getter @Setter
+    @Getter //Set işlemi olmasını istemediğimiz için final olarak tanımladık
     private final int renkId;
 
-    @Getter @Setter
+    @Getter
     private final String renkAdi;
 
     Renkler2(int renkId, String renkAdi) {
@@ -31,7 +33,7 @@ class Deneme{
         System.out.println(renkler2.toLowerCase());
         System.out.println("-------------");
 
-        String renkler3 = Renkler2.YESIL.getRenkAdi();
+        String renkler3 = Renkler2.MAVI.getRenkAdi();
         System.out.println(renkler3);
     }
 }
