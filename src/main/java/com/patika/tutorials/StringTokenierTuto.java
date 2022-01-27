@@ -19,5 +19,12 @@ public class StringTokenierTuto {
         while (stringTokenizer.hasMoreTokens()){
             System.out.println(stringTokenizer.nextToken());
         }
+        System.out.println("*******************");
+
+        StringTokenizer token = new StringTokenizer(jsonObject,"#");
+        while (token.hasMoreTokens()){
+            System.out.println(token.nextToken());
+        }
     }
+
 }
